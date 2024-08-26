@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: 'Poppins', Verdana, sans-serif;
+}
+
+#butter {
+    width: 60px;
+    height: auto;
+    padding: 0px 0px 0px 20px;
+}
+
+.header,
+.recipes,
+.blog {
+    box-sizing: border-box;
+    width: 600px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid;
+    padding: 5px 20px;
+    background-color: #fcedac;
+}
+
+.recipes,
+.blog {
+    padding: 50px;
+    background-color:#c18e59;
+    border: black 4px solid;
+    font-size: 19px;
+}
+
+.recipe-items {
+    padding: 10px;
+}
+
+.blog{
+    margin-top: 17px;
+    margin-bottom: 17px;
+    line-height: 1.6;
+}
+
+.recipe-image {
+    width: 100%;
+    text-align: center;
+    border: black 4px solid;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    background: linear-gradient(
+        to right,
+        rgba(100, 200, 200, 1),
+        rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+        to right,
+        rgba(255,0 ,0 ,1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+a:hover {
+    background-size: 0 3px, 100% 3px;
+}
