@@ -1,4 +1,4 @@
-# odin-recipes
+# Landing page for a cooking website
 
 I will be creating a website using my current HTML knowledge. 
 The website will be consisting of a main index page which will have multiple links to different pages that include recipes.
